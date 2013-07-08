@@ -1,0 +1,15 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.product.location,loc_case:"
+msgid "Case"
+msgstr "Caja"
+
+msgctxt "field:stock.product.location,loc_rack:"
+msgid "Rack"
+msgstr "Estante"
+
+msgctxt "field:stock.product.location,loc_row:"
+msgid "Row"
+msgstr "Fila"
