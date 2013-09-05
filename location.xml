@@ -17,6 +17,5 @@ copyright notices and license terms. -->
                 ref="stock_product_location.product_location_view_form"/>
             <field name="name">product_location_form</field>
         </record>
-
     </data>
 </tryton>
