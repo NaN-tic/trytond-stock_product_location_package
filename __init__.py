@@ -3,9 +3,11 @@
 # the full copyright notices and license terms.
 from trytond.pool import Pool
 from .location import *
+from .product import *
 
 
 def register():
     Pool.register(
+        Product,
         ProductLocation,
         module='stock_product_location_package', type_='model')
