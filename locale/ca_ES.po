@@ -2,6 +2,18 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "field:product.product,default_loc_case:"
+msgid "Case"
+msgstr "Caixa"
+
+msgctxt "field:product.product,default_loc_rack:"
+msgid "Rack"
+msgstr "Prestatge"
+
+msgctxt "field:product.product,default_loc_row:"
+msgid "Row"
+msgstr "Fila"
+
 msgctxt "field:stock.product.location,loc_case:"
 msgid "Case"
 msgstr "Caixa"
