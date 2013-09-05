@@ -4,8 +4,8 @@ The COPYRIGHT file at the top level of this repository contains the full
 copyright notices and license terms. -->
 <data>
     <xpath expr="/tree/field[@name='rec_name']" position="after">
-        <field name="default_loc_rack"/>
         <field name="default_loc_row"/>
+        <field name="default_loc_rack"/>
         <field name="default_loc_case"/>
     </xpath>
 </data>

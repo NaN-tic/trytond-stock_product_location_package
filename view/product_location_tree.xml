@@ -5,8 +5,8 @@ copyright notices and license terms. -->
 <data>
     <xpath expr="/tree/field[@name=&quot;location&quot;]"
             position="after">
-        <field name="loc_rack"/>
         <field name="loc_row"/>
+        <field name="loc_rack"/>
         <field name="loc_case"/>
     </xpath>
 </data>
