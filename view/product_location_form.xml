@@ -6,10 +6,10 @@ copyright notices and license terms. -->
     <xpath expr="/form/field[@name=&quot;location&quot;]"
             position="after">
         <group id="loc" colspan="2" col="2">
-            <label name="loc_row"/>
-            <field name="loc_row"/>
             <label name="loc_rack"/>
             <field name="loc_rack"/>
+            <label name="loc_row"/>
+            <field name="loc_row"/>
             <label name="loc_case"/>
             <field name="loc_case"/>
         </group>
