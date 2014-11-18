@@ -14,6 +14,30 @@ msgctxt "field:product.product,default_loc_row:"
 msgid "Row"
 msgstr "Fila"
 
+msgctxt "field:stock.move,from_location_case:"
+msgid "From Location Case"
+msgstr "Caixa ubicació origen"
+
+msgctxt "field:stock.move,from_location_rack:"
+msgid "From Location Rack"
+msgstr "Prestatge ubicació destí"
+
+msgctxt "field:stock.move,from_location_row:"
+msgid "From Location Row"
+msgstr "Fila ubicació destí"
+
+msgctxt "field:stock.move,to_location_case:"
+msgid "To Location Case"
+msgstr "Caixa ubicació destí"
+
+msgctxt "field:stock.move,to_location_rack:"
+msgid "To Location Rack"
+msgstr "Prestatge ubicació destí"
+
+msgctxt "field:stock.move,to_location_row:"
+msgid "To Location Row"
+msgstr "Fila ubicació destí"
+
 msgctxt "field:stock.product.location,loc_case:"
 msgid "Case"
 msgstr "Caixa"
