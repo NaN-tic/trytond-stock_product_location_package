@@ -5,10 +5,10 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['ProductLocation']
-__metaclass__ = PoolMeta
 
 
 class ProductLocation:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.product.location'
     loc_rack = fields.Char('Rack')
     loc_row = fields.Char('Row')

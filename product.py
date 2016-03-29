@@ -5,10 +5,10 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['Product']
-__metaclass__ = PoolMeta
 
 
 class Product:
+    __metaclass__ = PoolMeta
     __name__ = "product.product"
     default_loc_rack = fields.Function(fields.Char('Rack'), 'get_default_loc')
     default_loc_row = fields.Function(fields.Char('Row'), 'get_default_loc')
