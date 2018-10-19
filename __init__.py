@@ -2,13 +2,13 @@
 # The COPYRIGHT file at the top level of this repository contains
 # the full copyright notices and license terms.
 from trytond.pool import Pool
-from .move import *
-from .location import *
-from .product import *
+from . import move
+from . import location
+from . import product
 
 def register():
     Pool.register(
-        Move,
-        Product,
-        ProductLocation,
+        move.Move,
+        product.Product,
+        location.ProductLocation,
         module='stock_product_location_package', type_='model')

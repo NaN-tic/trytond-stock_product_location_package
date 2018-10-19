@@ -7,8 +7,7 @@ from trytond.pool import PoolMeta
 __all__ = ['Product']
 
 
-class Product:
-    __metaclass__ = PoolMeta
+class Product(metaclass=PoolMeta):
     __name__ = "product.product"
     default_loc_rack = fields.Function(fields.Char('Rack'), 'get_default_loc')
     default_loc_row = fields.Function(fields.Char('Row'), 'get_default_loc')
@@ -24,4 +23,3 @@ class Product:
                     return location.loc_row
                 if name == 'default_loc_case':
                     return location.loc_case
-        return None

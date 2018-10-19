@@ -7,8 +7,7 @@ from trytond.pool import PoolMeta
 __all__ = ['ProductLocation']
 
 
-class ProductLocation:
-    __metaclass__ = PoolMeta
+class ProductLocation(metaclass=PoolMeta):
     __name__ = 'stock.product.location'
     loc_rack = fields.Char('Rack')
     loc_row = fields.Char('Row')

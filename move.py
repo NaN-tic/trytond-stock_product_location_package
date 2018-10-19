@@ -7,8 +7,7 @@ from trytond.pool import Pool, PoolMeta
 __all__ = ['Move']
 
 
-class Move:
-    __metaclass__ = PoolMeta
+class Move(metaclass=PoolMeta):
     __name__ = 'stock.move'
     from_location_rack = fields.Function(fields.Char('From Location Rack'),
         'get_from_location_wharehose')
